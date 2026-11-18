@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openanp"
+version = "0.1.0"
+description = "Open Agentic Negotiation Protocol: deterministic mandate and human approval reference engine"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "OpenANP contributors"}]
+keywords = ["agents", "negotiation", "protocol", "policy", "ai"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
